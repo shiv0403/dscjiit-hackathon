@@ -430,7 +430,90 @@ h1.large {
     justify-content: center;
     
 }
+/* Tracks section */
+.row-c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tracks-column {
+    background: transparent;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px; 
+    box-shadow: 0px 0px 36px 3px  #0e0f13;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #292b38;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+#Tracks .card-img-top {
+    fill: #fff;
+}
+.tracks-column img {
+    width: 60px;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+}
+.card-img-top {
+    height: 300px;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+center > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+#Tracks h4 {
+    font-family: ''Poppins', sans-serif;', Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
 
+}
+#Tracks p {
+    font-family: 'Montserrat';
+    color: #e4e4e4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
 @media only screen and (max-width: 768px){
     .block-content .row {
         display: block;
