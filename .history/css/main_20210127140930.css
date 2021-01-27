@@ -966,7 +966,7 @@ select.error {
 
 @media (max-width: 728px) {
   .faqs__main {
-    display: block;
+    display: flex;
     text-align: left;
     padding: 50px;
     justify-content: space-between;

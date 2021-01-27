@@ -902,7 +902,6 @@ select.error {
   display: flex;
   text-align: left;
   padding: 50px;
-  justify-content: space-between;
 }
 
 .faqs__main__first {
@@ -964,13 +963,7 @@ select.error {
   margin-bottom: 10px;
 }
 
-@media (max-width: 728px) {
-  .faqs__main {
-    display: block;
-    text-align: left;
-    padding: 50px;
-    justify-content: space-between;
-  }
+.faqs_active {
 }
 
 /* End faq section*/

@@ -902,7 +902,6 @@ select.error {
   display: flex;
   text-align: left;
   padding: 50px;
-  justify-content: space-between;
 }
 
 .faqs__main__first {
@@ -912,8 +911,7 @@ select.error {
 .collapsible {
   background-color: #312e2e;
   color: #fff;
-  width: 45rem;
-  margin: auto;
+  width: 120rem;
   cursor: pointer;
   padding: 18px;
   border: none;
@@ -928,10 +926,7 @@ select.error {
 /* Style the collapsible content. Note: hidden by default */
 
 .faqs__content {
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 0px;
+  padding: 0;
   border-top: 2px black solid;
   overflow: hidden;
   margin: auto;
@@ -942,9 +937,6 @@ select.error {
   background-color: #312e2e;
   transition: max-height 0.2s ease-out;
   font-size: 1.1rem;
-  width: 45rem;
-  margin: auto;
-  margin-bottom: 10px;
 }
 
 .faqs__content__active {
@@ -959,18 +951,9 @@ select.error {
   background-color: #312e2e;
   transition: max-height 0.2s ease-out;
   font-size: 1.1rem;
-  width: 45rem;
-  margin: auto;
-  margin-bottom: 10px;
 }
 
-@media (max-width: 728px) {
-  .faqs__main {
-    display: block;
-    text-align: left;
-    padding: 50px;
-    justify-content: space-between;
-  }
+.faqs_active {
 }
 
 /* End faq section*/
