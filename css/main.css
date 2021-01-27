@@ -901,7 +901,7 @@ select.error {
 .faqs__main {
   display: flex;
   text-align: left;
-  padding: 50px;
+  padding: 100px;
   justify-content: space-between;
 }
 
@@ -910,7 +910,7 @@ select.error {
 }
 
 .collapsible {
-  background-color: #312e2e;
+  background-color: #292b38;
   color: #fff;
   width: 45rem;
   margin: auto;
@@ -919,7 +919,7 @@ select.error {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 25px;
+  font-size: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -937,9 +937,9 @@ select.error {
   margin: auto;
   margin-bottom: 10px;
   text-align: left;
-  font-size: 30px;
+  font-size: 10px;
   max-height: 0;
-  background-color: #312e2e;
+  background-color: #292b38;
   transition: max-height 0.2s ease-out;
   font-size: 1.1rem;
   width: 45rem;
@@ -954,11 +954,11 @@ select.error {
   margin: auto;
   margin-bottom: 10px;
   text-align: left;
-  font-size: 30px;
+  font-size: 10px;
   max-height: 0;
-  background-color: #312e2e;
+  background-color: #292b38;
   transition: max-height 0.2s ease-out;
-  font-size: 1.1rem;
+  font-size: 1rem;
   width: 45rem;
   margin: auto;
   margin-bottom: 10px;
